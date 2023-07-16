@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "manuals",
+  "info": {
+    "singularName": "manual",
+    "pluralName": "manuals",
+    "displayName": "manual"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
